@@ -24,6 +24,10 @@ make_intervals <- function(mod, steps=100) {
 #' Plot linear regression model
 #'
 #' Plot linear regression model with confidence and prediction intervals
+#'
+#' The idea is not only to show the confidence intervals around the regression
+#' line, but also the prediction intervals.
+#' @seealso ggplot, lm
 #' @param mod linear regression model.
 #' @importFrom ggplot2 ggplot aes geom_point geom_line
 #' @export
