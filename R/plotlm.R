@@ -1,6 +1,8 @@
 
 
 #' Creates new data and prediction/confidence intervals
+#'
+#' The newest history
 #' @param mod linear regression model
 #' @param steps how many new data points
 #' @export
